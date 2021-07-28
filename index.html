@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <style type="text/css">
+            body {
+                background-color: #414141;
+            }
+            .logo { 
+                position: absolute;
+                height: 80%; 
+                width: 100%; 
+                top: 0%; 
+                left: 0%; 
+                background-color: #fdba83;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .menu {
+                position: absolute;
+                height: 15%; 
+                width: 100%; 
+                top: 80%; 
+                left: 0%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Ubuntu", sans-serif;
+                color: #fdba83;
+            }
+            .menuitem {
+                height: 50%;
+            }
+            .footer {
+                position: absolute;
+                height: 5%; 
+                width: 100%; 
+                top: 95%; 
+                left: 0%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Ubuntu", sans-serif;
+                font-size: x-small;
+                font-weight: bold;
+                color: #fdba8373;
+            }
+            img {
+                max-width:50%;
+                max-height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        </style>
+		<title>Centrical Systems</title>
+    </head>
+    <body>
+        <!-- Logotype container -->
+        <div class="logo">
+            <img src="gfx/cs-logo-1920.png"></img>
+        </div>
+
+        <!-- Main page menu bar -->
+        <div class="menu">
+        </div>
+
+        <!-- Important information -->
+        <div class="footer">
+            &copy;
+            <span id="copyright">
+                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span>
+            &nbsp;CENTRICAL SYSTEMS
+        </div>
+    </body>
+</html>
